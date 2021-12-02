@@ -32,8 +32,6 @@ func solveDay2(input []string) int64 {
 			continue
 		}
 	}
-	fmt.Println(x)
-	fmt.Println(y)
 	return x * y
 }
 
