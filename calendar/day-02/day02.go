@@ -7,11 +7,6 @@ import (
 	"strings"
 )
 
-type Cord struct {
-	X int64
-	Y int64
-}
-
 func main() {
 	input := files.ReadFile(2, "\n")
 	fmt.Printf("Part 1: %d\n", solveDay2(input))
