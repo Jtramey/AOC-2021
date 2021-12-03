@@ -34,4 +34,3 @@ func solveDay2(input []string) int64 {
 	}
 	return x * y
 }
-
